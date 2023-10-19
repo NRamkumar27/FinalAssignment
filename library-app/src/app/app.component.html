@@ -1,0 +1,17 @@
+<div>
+  <h1>Welcome to the Library App</h1>
+  <nav>
+    <h4> Create the Book</h4>
+      <label for="Title">Title </label>
+      <input type="text" id="title" name="Title"><br><br>
+      <label for="author">Author </label>
+      <input type="text" id="Author" name="author"><br><br>
+      <label for="author">Year </label>
+      <input type="number" id="year" name="year"><br><br>
+      <button routerLink="/books/create" routerLinkActive="active">Add New Book</button>
+    <br><br>
+    <h4> Get the list of the books which are available</h4>
+    <button routerlink="/books" routerLinkActive="active">Books</button>
+  </nav>
+</div>
+<router-outlet></router-outlet>
